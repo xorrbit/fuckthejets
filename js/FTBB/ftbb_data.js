@@ -5,7 +5,7 @@
 var FTBB = FTBB || {};
 
 (function () {
-    // List of sports that arent football
+    // List of sports that arent hockey
     FTBB.sports = [
         "Baseball",
         "Basketball",
@@ -15,7 +15,7 @@ var FTBB = FTBB || {};
         "Cricket",
         "Golf",
         "Handball",
-        "Hockey",
+        "Football",
         "Lacrosse",
         "Rugby",
         "Tennis"

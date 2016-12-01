@@ -1,0 +1,37 @@
+/* Base */
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #F2F2F2;
+}
+
+/* Content */
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+}
+.container .text-muted {
+    margin: 20px 0;
+}
+
+.container-table {
+    display: table;
+    vertical-align: middle;
+}
+
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.no-bottom-border {
+    border-bottom: 0px;
+}
+
+.header {
+    background-color: #E3E3E3;
+    height: 120px;
+}

@@ -38,7 +38,7 @@ var FTBB = FTBB || {};
     // See if we have a bomber schedule for today
     var bs = FTBB.schedule;
     var data = undefined;
-    if (bs[year] && bs[year][month] && bs[year][month][date] && bs[year][month][date][place] == 'Home') {
+    if (bs[year] && bs[year][month] && bs[year][month][date]) {
         // Game today, get some data and display a message
         data = bs[year][month][date];
         result_answer.html("NO YOU SHOULDN'T!");
